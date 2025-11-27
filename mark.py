@@ -12,13 +12,13 @@ sub5 = sys.argv[5]
 avg=(sub1+sub2+sub3+sub4+sub5)/5
 print("Average marks",avg)
 print("Grade")
-if avg>=90 :
+if avg >= 90:
   print("A")
-else avg>=80 :
- print("B")
-else avg>=70 :
- print("C")
-else avg>=60 :
- print("D")
-else avg<60 :
- print("Fail")
+elif avg >= 80:
+  print("B")
+elif avg >= 70:
+  print("C")
+elif avg >= 60:
+  print("D")
+else:
+  print("Fail")
