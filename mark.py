@@ -4,12 +4,13 @@ if len(sys.argv) !=6:
       sys.exit(1)
 
 script_name = sys.argv[0]
-sub1 = sys.argv[1]
-sub2= sys.argv[2]
-sub3 = sys.argv[3]
-sub4 = sys.argv[4]
-sub5 = sys.argv[5]
-avg=(sub1+sub2+sub3+sub4+sub5)/5
+sub1 = int(sys.argv[1])
+sub2 = int(sys.argv[2])
+sub3 = int(sys.argv[3])
+sub4 = int(sys.argv[4])
+sub5 = int(sys.argv[5])
+
+avg = (sub1 + sub2 + sub3 + sub4 + sub5) / 5
 print("Average marks",avg)
 print("Grade")
 if avg >= 90:
